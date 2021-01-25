@@ -1,0 +1,126 @@
+.right {
+    height: 600px;
+    padding-left: 50px;
+}
+
+.form-in {
+    padding-top: 30px;
+    height: 450px;
+    -webkit-box-shadow: -2px 4px 15px 6px rgba(0,0,0,0.41); 
+    box-shadow: -2px 4px 15px 6px rgba(0,0,0,0.41);
+    &-in {
+        padding-left: 50px;
+        position: relative;
+        
+    }
+    &-user i {
+        position: absolute; 
+        left: 80px; 
+        top: 35px;  
+        height: 50px;
+        width: 50px;
+    }
+    &-mail i {
+        position: absolute; 
+        left: 80px; 
+        top: 90px;  
+        height: 50px;
+        width: 50px;
+    }
+    &-phone i {
+        position: absolute; 
+        left: 80px; 
+        top: 145px;  
+        height: 50px;
+        width: 50px;
+    }
+    &-year i {
+        position: absolute; 
+        left: 80px; 
+        top: 200px;  
+        height: 45px;
+        width: 50px;
+    }
+
+}
+.form-in h1 {
+    font-family: Roboto;
+    font-size: 20.2px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    margin-top: 30px;
+}
+.control {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 80%;
+}
+input[type=text]{
+    // border-bottom: 2px solid black;
+    width: 80%;
+    padding-left: 30px;
+    // margin: 8px 0;
+    // box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid black;
+    &:focus {
+        background-color: lightblue;
+        outline: none;
+      }
+  }
+.button {
+    // padding-top: -15px;
+    padding-bottom: 25px;
+    width: 97.4px;
+    height: 31.5px;
+    border-radius: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color:#f15a24; 
+    border: 2px solid #4CAF50;
+    &-position {
+        padding-left: 280px;
+        padding-top: 20px;
+    }
+    &:hover {
+        background-color: blue;
+        color: white;
+    }
+}
+   
+  .abbott {
+      margin-top: 20px;
+      & ul {
+        list-style: none;
+        & li {
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.67;
+            letter-spacing: normal;
+            // text-align: left;
+            color: #000000;
+              &:before {
+                content: "\2022";
+                color:#0096d7;
+                font-weight: bold;
+                display: inline-block; 
+                width: 1em;
+            }
+        }
+      }
+  }
+
+
+
+  

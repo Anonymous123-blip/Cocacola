@@ -1,0 +1,587 @@
+body {
+  position: relative;
+  font-family: Roboto;
+}
+
+.image {
+  background-image: url(/images/banner-top.jpg?c4f0a5ff8277bc23c2bc75f910459972);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 160vh;
+}
+
+.image-button img {
+  width: 100px;
+  height: 120px;
+  margin-left: 46.5%;
+  margin-top: 700px;
+}
+
+.image-icon img {
+  height: 340px;
+  padding-left: 5%;
+}
+
+.image-istalent img {
+  height: 250px;
+}
+
+.image-istar img {
+  height: 250px;
+}
+
+.image-advisory {
+  background-image: url(/images/banner-register.png?c7305a7f9bc0b587231bec8cd1f3f62e);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.text-advisory {
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.69;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.text-advisory-want {
+  background-image: url(/images/khung-ngag-web.png?9b483408cebaacc507f4604cf9f3a23a);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  height: auto;
+  padding-top: 30px;
+  padding-left: 108px;
+}
+
+.text-advisory-want-find p {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.62;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.text-advisory-want-find ul {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+}
+
+.text-advisory-want-find li {
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.but {
+  background-color: #f2f2f2;
+}
+
+.but-left img {
+  padding-left: 25%;
+  height: 300px;
+}
+
+.but-right p {
+  font-size: 26px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  padding-top: 70px;
+}
+
+.but-right li {
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.18;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.but-right ul {
+  padding-left: 8%;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.stopover {
+  background-image: url(/images/banner-map.png?05780925c951b38a7dc0bdd897f287f8);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
+.text {
+  padding-top: 50px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.15;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.text-jobtest {
+  font-size: 27px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+  margin-top: -10px;
+}
+
+.text-istalent {
+  font-size: 34px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.41;
+  letter-spacing: normal;
+  color: white;
+  margin-top: -150px;
+  margin-left: 55%;
+}
+
+.text-istar {
+  font-size: 34px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.41;
+  letter-spacing: normal;
+  color: white;
+  margin-top: -155px;
+  margin-left: 50%;
+}
+
+.text-expert {
+  padding-left: 20%;
+  line-height: 0.7;
+  margin-top: 60px;
+}
+
+.text-time {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 20%;
+  padding-bottom: 0;
+  margin-top: 60px;
+}
+
+.text-you {
+  font-size: 14.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding-top: 30px;
+  margin-left: 20%;
+}
+
+.text-you i {
+  height: 20px;
+  width: 20px;
+  color: white;
+  margin-left: -5%;
+  position: absolute;
+}
+
+.text-problem {
+  font-size: 31.9px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.15;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 70px;
+}
+
+.text-join {
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.16;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.button {
+  padding: 0;
+  width: 180px;
+  height: 40px;
+  border-radius: 16px;
+  color: #f48120;
+  text-align: center;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  border: 0.5px solid white;
+  font-size: 17px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.15;
+  letter-spacing: normal;
+}
+
+.button-position {
+  padding-left: 44%;
+  padding-top: 20px;
+}
+
+.button:hover {
+  background-color: #3498db;
+  color: white;
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+.solution {
+  background-image: url(/images/image-map.jpg?03a9d536b9b24fe8d998810909055ea0);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+.istar {
+  border: 1px solid white;
+  padding: 10px;
+  border-top-left-radius: 50px 20px;
+  height: 280px;
+  background-color: #f48120;
+}
+
+.istar-right {
+  border: 1px solid white;
+  padding: 10px;
+  border-top-right-radius: 25px;
+  height: 280px;
+  background-color: #0070c4;
+}
+
+.istar-all {
+  margin-left: 25%;
+  margin-top: 0;
+  margin-right: 0.2%;
+}
+
+.table-op {
+  margin-right: 0;
+  background-color: #f2f2f2;
+}
+
+.table-op th {
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.table-op td {
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 4;
+  letter-spacing: normal;
+  color: #000000;
+  padding-top: 25px;
+}
+
+.table-op td img {
+  height: 10px;
+  width: 10px;
+}
+
+.advisory h1 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-size: 26px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+#clockdiv {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 25%;
+}
+
+#clockdiv > div {
+  padding: 10px;
+  border-radius: 3px;
+  background: black;
+  display: inline-block;
+}
+
+#clockdiv div > span {
+  padding: 15px;
+  border-radius: 3px;
+  background: black;
+  display: inline-block;
+}
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.form {
+  padding-top: 30px;
+  color: white;
+  margin-left: 15%;
+}
+
+.form-user i {
+  position: absolute;
+  left: 20px;
+  top: 60px;
+  height: 50px;
+  width: 50px;
+  margin-left: 15%;
+}
+
+.form-mail i {
+  position: absolute;
+  left: 20px;
+  top: 170px;
+  height: 50px;
+  width: 50px;
+  margin-left: 15%;
+}
+
+.form-phone i {
+  position: absolute;
+  left: 20px;
+  top: 115px;
+  height: 50px;
+  width: 50px;
+  margin-left: 15%;
+}
+
+input[type=text] {
+  padding-top: 30px;
+  width: 80%;
+  padding-left: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+  outline: none;
+}
+
+::-moz-placeholder {
+  color: white;
+  opacity: 1;
+  padding-left: 2%;
+}
+
+:-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+  padding-left: 2%;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+  padding-left: 2%;
+}
+
+.radios {
+  font-weight: bold;
+  color: #ffffff;
+  padding-top: 10px;
+  margin-left: 15%;
+}
+
+.radios-right {
+  padding-left: 13%;
+}
+
+.problem {
+  background-image: url(/images/banner-program.png?01692387451b844fa0d38c55c286238a);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  height: 60vh;
+  margin-top: 90px;
+}
+
+.team {
+  margin-top: 100px;
+}
+
+.our-team {
+  padding: 30px 0 40px;
+  margin-bottom: 30px;
+  background-color: white;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.our-team .picture {
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.our-team .picture::before {
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #1369ce;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+.our-team:hover .picture::before {
+  height: 100%;
+}
+
+.our-team .picture::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #1369ce;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.our-team .picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+
+.our-team:hover .picture img {
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
+}
+
+.our-team .title {
+  display: block;
+  font-size: 15px;
+  color: #4e5052;
+  text-transform: capitalize;
+}
+
+.our-team .social {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #1369ce;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .social {
+  bottom: 0;
+}
+
+.our-team .social li {
+  display: inline-block;
+}
+
+.our-team .social li a {
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.our-team .social li a:hover {
+  color: #1369ce;
+  background-color: #f7f5ec;
+}
+
+.join {
+  background-image: url(/images/people.png?976e3744f0fa990d8da2e75926627e7c);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  height: 70vh;
+  width: 400px;
+  margin-left: 25%;
+  position: absolute;
+  margin-top: -270px;
+}
+
+.connection {
+  background-image: url(/images/khung-vang.png?cd5cdef8923a6ab568f0efb76402a324);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  border-radius: 18px;
+  margin-top: 300px;
+}
+

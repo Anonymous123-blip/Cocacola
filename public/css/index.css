@@ -1,0 +1,400 @@
+body {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+.menu {
+  padding-left: 10%;
+  background-color: #fefefe;
+}
+
+.menu-logo img {
+  height: 50px;
+  width: 150px;
+}
+
+.menu ul {
+  margin-left: 2%;
+  height: 50px;
+}
+
+.menu ul li {
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.5;
+  letter-spacing: normal;
+  color: #000000;
+  padding-left: 15px;
+}
+
+.banner {
+  background-image: url("/images/Scroll Group 1@2x.png?071f6a5db68407ee76fd6d4e55f2adcd");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300vh;
+}
+
+.banner-part {
+  margin-top: 100px;
+}
+
+.banner-img {
+  height: auto;
+}
+
+.banner-img img {
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-kv img {
+  height: auto;
+  width: 80%;
+  margin-left: 25%;
+  margin-top: -180px;
+}
+
+.banner-aspire {
+  margin-left: 40px;
+  margin-top: -40px;
+}
+
+.banner-aspire img {
+  height: auto;
+  width: 200px;
+}
+
+.banner-bear {
+  height: auto;
+}
+
+.banner-bear img {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-form {
+  background-color: #161a1d;
+  width: 90%;
+  height: auto;
+  padding-top: 60px;
+  padding-left: 30px;
+  border-radius: 8px;
+  margin-bottom: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.banner-form-in {
+  padding-bottom: 40px;
+}
+
+.banner-form-in-user i {
+  position: relative;
+  left: -87%;
+  top: -1px;
+  height: 60px;
+}
+
+.banner-form-in-mail i {
+  position: relative;
+  left: -87%;
+  top: -1px;
+  height: 60px;
+}
+
+.banner-form-in-phone i {
+  position: relative;
+  left: -87%;
+  top: -1px;
+  height: 60px;
+}
+
+.banner-form-in-score i {
+  position: relative;
+  left: -87%;
+  top: -1px;
+  height: 60px;
+}
+
+input[type=text] {
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid black;
+  height: 40px;
+  padding-left: 30px;
+  border-radius: 4px;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+  outline: none;
+}
+
+.text {
+  color: white;
+}
+
+.text-coca {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #fefefe;
+}
+
+.text-future {
+  font-size: 33px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  color: #fefefe;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.text-leader p {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #fefefe;
+  text-align: center;
+}
+
+.text-choose {
+  font-size: 33px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fefefe;
+  margin-top: 50px;
+}
+
+.text-learn {
+  font-size: 40px;
+  font-weight: 1200;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.01;
+  letter-spacing: normal;
+  color: #d02c24;
+}
+
+.button {
+  padding: 0;
+  width: 140px;
+  height: 40px;
+  border-radius: 16px;
+  color: white;
+  text-align: center;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: red;
+  border: 0.5px solid none;
+  font-size: 14px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.15;
+  letter-spacing: normal;
+}
+
+.button:hover {
+  background-color: #3498db;
+  color: white;
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+.button-done {
+  padding-left: 40%;
+  padding-bottom: 50px;
+  margin-top: -30px;
+}
+
+.button-Recruitment {
+  margin-top: 30px;
+  margin-left: -4%;
+}
+
+.button-Recruitment img {
+  height: auto;
+  width: 80px;
+  margin-top: -160px;
+}
+
+.button-Recruitment p {
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #161a1d;
+  margin-top: -50px;
+  margin-bottom: 3px;
+}
+
+.introduce {
+  background-image: url("/images/Path 422@2x.png?5bb6bfedf8186db401096b7d88ee7ad6");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  margin-top: -510px;
+}
+
+.introduce-img {
+  height: auto;
+  margin-top: 200px;
+}
+
+.introduce-img img {
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-md-2 {
+  height: 200px;
+  background-color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 100px;
+  margin-left: 30px;
+  margin-top: 70px;
+  border-radius: 5px;
+  padding-left: 25px;
+}
+
+.why-img {
+  height: auto;
+  margin-top: 100px;
+}
+
+.why-img img {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  width: 300px;
+  height: auto;
+  background-color: #ffffff;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  text-align: left;
+  color: #161a1d;
+  margin-bottom: 50px;
+}
+
+.box-deve {
+  width: 300px;
+  height: auto;
+  background-color: #ffffff;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  text-align: left;
+  color: #161a1d;
+}
+
+.box-align {
+  margin-top: 80px;
+}
+
+.box-img {
+  height: auto;
+  width: 200px;
+}
+
+.how {
+  background-image: url("/images/Rectangle 1.png?3701bb3ed16b7e0f68144ce640cd5f91");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  margin-top: -200px;
+  z-index: -9999;
+  position: absolute;
+}
+
+.how-img {
+  height: auto;
+  margin-top: 300px;
+}
+
+.how-img img {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.file {
+  margin-top: 70px;
+}
+
+.file-icon img {
+  height: auto;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.file-month {
+  background-image: url("/images/Path 1264@2x.png?1855deb59fc0291935580d53ac99636b");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 10vh;
+  width: 280px;
+}
+
+.file-month p {
+  font-size: 20px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.find img {
+  height: 50px;
+  width: 50px;
+}
+

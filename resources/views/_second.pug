@@ -1,0 +1,235 @@
+extends layout
+
+block vars
+	- var title = 'online'
+
+block head_end
+	link(rel="stylesheet" href="../css/main.css")
+block content
+	header.containner-fluid
+		.image
+			.image-button
+				img(src="../image/play-video.png" alt="responsive" )
+	section.container
+		section.text-advisory
+			p 
+			span(Style=" font-size: 26px; font-weight: 900") TƯ VẤN HƯỚNG NGHIỆP ONLINE
+			p GIẢI MÃ BẢN THÂN - BỨT PHÁ GIỚI HẠN
+	section.container
+		.row.g2.text-advisory-want
+			.col-sm-6.col-md-6.text-advisory-want-find
+				p Bạn muốn..
+				ul
+					li Thăng tiến nhanh chóng trong công việc
+					li Có được việc làm tốt ngay sau khi Tốt nghiệp
+					li Tìm được ngành nghề phù hợp với Tính cách, Khả năng, Đam mê và Nhu cầu xã hội
+			.col-sm-6.col-md-6.image-icon
+				img(src="../image/super-hero.png" alt="responsive" )
+	section.container-fluid
+		.row.g2.but
+			.col-sm-6.col-md-6.but-left
+				img(src="../image/but.png" alt="responsive" )
+			.col-sm-6.col-md-6.but-right
+				p NHƯNG
+				ul
+					li Chưa có cơ sở để đưa ra lựa chọn chính xác
+					li Thiếu kinh nghiệm và định hướng
+					li Chưa có kỹ năng và chiến lược phát triển lâu dài
+	section.container-fluid
+		.stopover
+			.text
+				p Bạn đang loay hoay tìm hướng đi?
+			.text-jobtest
+				p HÃY ĐỂ JOBTEST CHỈ ĐƯỜNG CHO BẠN
+			.button-position
+				button.btn.button(onclick='newFunction()')(type='submit') Bắt đầu hành trình
+	main.container.solution
+	main.container
+		.row.istar-all
+			.col-sm-6.col-md-6.istar
+				.image-istalent
+					img(src="../image/icon-istalent.png" alt="responsive" )
+				.text-istalent
+					p iTALENT
+			.col-sm-6.col-md-6.istar-right
+				.image-istar
+					img(src="../image/icon-istar.png" alt="responsive" )
+				.text-istar
+					p iSTAR
+		table.table.table-bordered.table-op
+			thead
+				tr
+					th(scope='col') ĐỐI TƯỢNG
+					th(scope='col') 12-18 tuổi
+					th(scope='col') 19 tuổi trở lên
+			tbody
+				tr
+					th(scope='col') 
+						| NỘI DUNG 
+						br
+						|TƯ VẤN
+					td 
+						img(src="../image/arrow.svg" alt="responsive" )
+						| &nbsp; &nbsp; &nbsp;Thực hiện bài trắc nghiệm chuẩn quốc tế để nhận diện TÍNH CÁCH, NĂNG LỰC, ĐAM MÊ
+						br
+						img(src="../image/arrow.svg" alt="responsive" ) 
+						| &nbsp; &nbsp; &nbsp;Tư vấn chọn ngành học phù hợp với TIỀM NĂNG bản thân và XU HƯỚNG xã hội
+						br
+						img(src="../image/arrow.svg" alt="responsive" )
+						| &nbsp; &nbsp; &nbsp;Cung cấp thông tin chi tiết về KIẾN THỨC, KỸ NĂNG cần có trong từng ngành
+						br
+						img(src="../image/arrow.svg" alt="responsive" )
+						| &nbsp; &nbsp; &nbsp;Đào tạo NGHỆ THUẬT GIAO TIẾP
+					td
+						img(src="../image/arrow.svg" alt="responsive" )
+						| &nbsp; &nbsp; &nbsp;Thực hiện bài trắc nghiệm chuẩn quốc tế để đánh giá MỨC ĐỘ PHÙ HỢP NGÀNH NGHỀ
+						br
+						img(src="../image/arrow.svg" alt="responsive" ) 
+						| &nbsp; &nbsp; &nbsp;Đào tạo KỸ NĂNG và KIẾN THỨC trong từng ngành nghề
+						br
+						img(src="../image/arrow.svg" alt="responsive" )
+						| &nbsp; &nbsp; &nbsp; Nghệ thuật ĐÀM PHÁN và THƯƠNG LƯỢNG với nhà tuyển dụng
+						br
+						img(src="../image/arrow.svg" alt="responsive" )
+						| &nbsp; &nbsp; &nbsp;Thực hành PHỎNG VẤN
+				tr
+					th(scope='col') 
+						| KẾT QUẢ 
+						br
+						| ĐẠT ĐƯỢC
+					td
+						img(src="../image/arrow.svg" alt="responsive" )
+						| &nbsp; &nbsp; &nbsp;Lựa chọn NGÀNH HỌC phù hợp
+						br
+						img(src="../image/arrow.svg" alt="responsive" )
+						| &nbsp; &nbsp; &nbsp;Xây dựng CHIẾN LƯỢC PHÁT TRIỂN toàn diện
+					td
+						img(src="../image/arrow.svg" alt="responsive" )
+						| &nbsp; &nbsp; &nbsp;CHINH PHỤC nhà tuyển dụng 
+						br
+						img(src="../image/arrow.svg" alt="responsive" )
+						| &nbsp; &nbsp; &nbsp;Xây dựng CHIẾN LƯỢC THÀNH CÔNG nhanh chóng
+	section.container-fluid.advisory
+		h1 THAM GIA 60 PHÚT TƯ VẤN MIỄN PHÍ
+	section.container-fluid.image-advisory
+		.row
+			.col-sm-5.col-md-5
+				.text-expert
+					p 
+					span(Style="font-weight: bold ") Chuyên gia:
+					| &nbsp; &nbsp;CEO Nguyễn Công Thủy
+					p 
+					span(Style="font-weight: bold ") Hình thức:
+					| &nbsp; &nbsp; Online
+					p 
+					span(Style="font-weight: bold ") Thời gian:
+					| &nbsp; &nbsp; Thứ 7 hằng tuần
+					p 
+					span(Style="color:#f48120 ") Quà tặng: Bộ tài liệu Định hướng nghề nghiệp trên cơ sở khoa học
+				.text-time
+					p THỜI GIAN ƯU ĐÃI CHỈ CÒN
+				#clockdiv
+					div
+						span.days
+						.smalltext Days
+					div
+						span.hours
+						.smalltext Hours
+					div
+						span.minutes
+						.smalltext Minutes
+					div
+						span.seconds
+						.smalltext Seconds
+			.col-sm-7.col-md-7
+				.form
+					.form-user
+							input.control(type='text' placeholder='Họ và tên')
+							i.fa.fa-user(aria-hidden='true')
+					.form-phone
+							input.control(type='text' placeholder='Số điện thoại')
+							i.fa.fa-phone(aria-hidden='true')
+					.form-mail
+							input.control(type='text' placeholder='Email')
+							i.fa.fa-envelope-o(aria-hidden='true')
+				.text-you
+					i.fa.fa-id-card-o(aria-hidden='true') 
+					p Bạn muốn nội dung tư vấn nào?
+				.radios
+					.custom-control.custom-radio.custom-control-inline
+						input#customRadioInline1.custom-control-input(type='radio' name='customRadioInline1')
+						label.custom-control-label(for='customRadioInline1') ITALENT ( 12-18 tuổi )
+					.custom-control.custom-radio.custom-control-inline.radios-right
+						input#customRadioInline2.custom-control-input(type='radio' name='customRadioInline1')
+						label.custom-control-label(for='customRadioInline2') ISTAR ( trên 19 tuổi )
+					.button-position(Style="padding-left: 20%; padding-top: 30px")
+						button.btn.button(onclick='newFunction()')(type='submit') Đặt chỗ ngay
+	section.container
+		.problem
+			.text-problem
+				P CHƯƠNG TRÌNH TƯ VẤN DÀI HẠN
+			.button-position(Style="padding-left: 40%; padding-top: 30px")
+				button.btn.button(onclick='newFunction()')(type='submit') Tìm hiểu ngay
+	.container.team
+		.text-advisory
+			p(Style=" font-size: 26px; font-weight: 900") CHUYÊN GIA TƯ VẤN
+		.row
+			.col-12.col-sm-6.col-md-4.col-lg-3
+				.our-team
+					.picture
+						img.img-fluid(src="../image/Thuy.png" alt="responsive")
+					.team-content
+						h3.name Nguyễn Công Thủy
+						h4.title CEO & Chuyên gia tư vấn cấp cao
+			.col-12.col-sm-6.col-md-4.col-lg-3
+				.our-team
+					.picture
+						img.img-fluid(src="../image/Huong.png" alt="responsive")
+					.team-content
+						h3.name Nguyễn Hương Quỳnh
+						h4.title Nhà sáng lập & Giám đốc Điều hành The Blue Ocean
+			.col-12.col-sm-6.col-md-4.col-lg-3
+				.our-team
+					.picture
+						img.img-fluid(src="../image/An.png" alt="responsive")
+					.team-content
+						h3.name Văn Thuỵ Tuyền An
+						h4.title Phó Giám đốc Quản trị Nguồn nhân lực  tại Ngân hàng TMCP Sài Gòn - SCB
+			.col-12.col-sm-6.col-md-4.col-lg-3
+				.our-team
+					.picture
+						img.img-fluid(src="../image/Phan.png" alt="responsive")
+					.team-content
+						h3.name Phan Vĩnh Thọ
+						h4.title Trưởng phòng Thu hút Nhân tài tại Công ty Coca-Cola Vietnam
+	section.container
+		.text-advisory
+			p(Style=" font-size: 26px; font-weight: 900") TẠI SAO BẠN NHẤT ĐỊNH PHẢI THAM GIA?
+		.text-advisory
+			P Cơ hội bứt phá bản thân nằm trong tầm tay bạn
+	section.container
+			.join
+			.connection
+				.text-join
+					p Kết nối
+					span(Style="color: red") TRỰC TUYẾN
+					|- Giờ giấc
+					span(Style="color: red") LINH HOẠT
+					p Được trao đổi TRỰC TIẾP với các chuyên gia tư vấn hàng đầu
+					p Cố vấn là những CHUYÊN GIA CẤP CAO tại các doanh nghiệp lớn
+					p Mở rộng MỐI QUAN HỆ, mở rộng CƠ HỘI VIỆC LÀM
+
+		
+
+			
+			
+
+
+
+					
+			
+	
+
+
+block body_end	
+	script(src="../../js/main.js")

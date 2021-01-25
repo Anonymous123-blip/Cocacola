@@ -1,0 +1,278 @@
+extends layout
+
+block vars
+	- var title = 'online'
+
+block head_end
+	link(rel="stylesheet" href="../css/index.css")
+	link(rel='preconnect' href='https://fonts.gstatic.com')
+	link(href='https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap' rel='stylesheet')
+
+block content
+	nav.navbar.navbar-expand-lg.navbar-light.container-fluid.menu
+		a.navbar-brand.menu-logo(href='#')
+			img(src="../element Microsite/logo coke.png" alt="responsive")
+		button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
+			span.navbar-toggler-icon
+		#navbarNav.collapse.navbar-collapse
+			ul.navbar-nav
+				li.nav-item.active
+					a.nav-link(href='#') TRANG CHỦ
+				li.nav-item.active
+					a.nav-link(href='#') ỨNG TUYỂN
+				li.nav-item.active
+					a.nav-link(href='#') 
+						span(style="color: red") ASPIRE 
+						| LÀ GÌ?
+				li.nav-item.active
+					a.nav-link(href='#') 
+						| LÝ DO CHỌN 
+						span(style="color: red") ASPIRE
+				li.nav-item.active
+					a.nav-link(href='#') QUY TRÌNH THAM GIA
+				li.nav-item.active
+					a.nav-link(href='#') TIÊU CHÍ TÌM KIẾM
+	//-end menu ************************************************
+	section.container-fluid.banner
+		.row
+			.col-md-12
+				.banner-img
+					img(src="../element Microsite/Rectangle 6@2x.png" alt="responsive")
+		.row
+			.col-sm-6.col-md-6
+				.banner-kv
+					img(src="../element Microsite/hinh kv.png" alt="responsive")
+			.col-sm-6.col-md-6
+				.banner-aspire
+					img(src="../element Microsite/dung bo lo.png" alt="responsive")
+					.text
+						h1 
+							span(style="color: red; font-weight: bold") A
+							span(style="font-weight: lighter") SPIRE
+						h1 
+							span(style="color: red; font-weight: bold") F
+							|UTURE
+						h1 
+							span(style="color: red; font-weight: bold") L
+							|EADER
+					.text-coca
+						p Từ 
+							span(style="font-weight: bold") Coca-Cola 
+							| Việt Nam
+						p #1 Nhà Tuyển Dụng Yêu Thích Nhất 
+						p Trở thành Nhà Lãnh đạo Thế hệ mới ngay hôm nay!
+					.button-position
+						button.btn.button(onclick='newFunction()')(type='submit') Ứng tuyển tại đây
+		.row.banner-part
+			.col-sm-6.col-md-4
+				.banner-bear
+					img(src="../element Microsite/gau s1.png" alt="responsive")
+			.col-sm-6.col-md-8.banner-form
+				.row.g2
+					.col-sm-12.col-md-6
+						.banner-form-in
+							.banner-form-in-user
+								input(type='text' placeholder='Họ và tên')
+								i.fa.fa-user(aria-hidden='true')
+							.banner-form-in-mail
+								input(type='text' placeholder='Email')
+								i.fa.fa-envelope-o(aria-hidden='true')
+							.banner-form-in-phone
+								input(type='text' placeholder='Số điện thoại')
+								i.fa.fa-phone(aria-hidden='true')
+							.banner-form-in-score
+								input(type='text' placeholder='Điểm trung bình Đại học')
+								i.fa.fa-file-text-o(aria-hidden='true')
+					.col-sm-12.col-md-6
+						.banner-form-in
+							.banner-form-in-user
+								input(type='text' placeholder='Năm tốt nghiệp đại học')
+								i.fa.fa-graduation-cap(aria-hidden='true')
+							.banner-form-in-mail
+								input(type='text' placeholder='Địa điểm mong muốn làm việc')
+								i.fa.fa-map-marker(aria-hidden='true')
+							.banner-form-in-phone
+								input(type='text' placeholder='Vị trí ứng tuyển')
+								i.fa.fa-briefcase(aria-hidden='true')
+							.banner-form-in-score
+								input(type='text' placeholder='Hồ sơ của bạn')
+								i.fa.fa-file-o(aria-hidden='true')
+								i.fa.fa-upload(aria-hidden='true' style="left:-10%")
+				.row
+					.col-md-12.button-done
+							button.btn.button(onclick='newFunction()')(type='submit') Hoàn thành
+	section.container-fluid.introduce
+		.row
+			.col-md-12
+				.introduce-img
+					img(src="../element Microsite/gioi thieu.png" alt="responsive")
+		.row
+			.col-md-12
+				.text-future
+					h1 
+						span(style="color:red") ASPIRE 
+						| FUTURE LEADERS
+				.text-leader
+					P 
+						| Chương trình Aspire Future Leaders 2021 là sáng kiến toàn cầu nhằm nuôi dưỡng tài năng trẻ cho thế hệ lãnh đạo tương lai từ 
+						br
+						| Coca-Cola thông qua lộ trình phát lộ trình phát triển toàn diện 24 tháng với những trải nghiệm ấn tượng, thú vị và độc đáo.
+						br
+						| Lần đầu tiên, Coca-Cola ra mắt 
+						span(style='font-weight: bold') Aspire Future Leaders 
+						| tại 6 thị trường khu vực Đông Nam Á, mang đến bạn cơ hội trải 
+						br
+						| nghiệm và chia sẻ tiếng nói trong môi trường quốc tế thực thụ.
+						br
+						span(style='font-weight: bold') Năm 2021, Coca-Cola chào đón những Nhà Lãnh đạo thế hệ mới gia nhập đội ngũ 
+						span(style='color: red') Aspire Future Leaders 
+						span(style='font-weight: bold') tại 5 phòng ban:
+		.container
+			.row
+				.col-md-2
+					.button-Recruitment
+						img(src="../element Microsite/ban hang.png" alt="responsive")
+						p Bán Hàng
+						button.btn.button(onclick='newFunction()')(type='submit') Ứng tuyển ngay
+				.col-md-2 
+					.button-Recruitment
+						img(src="../element Microsite/Path 456@2x.png" alt="responsive")
+						p Thương Mại
+						button.btn.button(onclick='newFunction()')(type='submit') Ứng tuyển ngay
+				.col-md-2 
+					.button-Recruitment
+						img(src="../element Microsite/chuoi cung ung.png" alt="responsive")
+						p Chuỗi Cung Ứng
+						button.btn.button(onclick='newFunction()')(type='submit') Ứng tuyển ngay
+				.col-md-2 
+					.button-Recruitment
+						img(src="../element Microsite/tai chinh.png" alt="responsive")
+						p Tài Chính
+						button.btn.button(onclick='newFunction()')(type='submit') Ứng tuyển ngay
+				.col-md-2
+					.button-Recruitment
+						img(src="../element Microsite/nhan su.png" alt="responsive")
+						p Nhân Sự
+						button.btn.button(onclick='newFunction()')(type='submit') Ứng tuyển ngay
+		.container
+			.row
+				.col.md-12
+					.why-img
+						img(src="../element Microsite/icon vi sao.png" alt="responsive")
+			.text-choose
+				h1 BẠN CHỌN 
+					span(style="color: red") ASPIRE
+			.row
+				.col-sm-6.col-md-4
+					.text-learn
+						h1 01
+					.box
+						p Bạn sẽ 
+							span(style="color: red") HỌC TẬP LINH HOẠT 
+							| với lộ trình 24 tháng đào tạo và phát triển chuyên sâu thông qua 4 cột mốc luân chuyển, từ đó khám phá bản thân và trải nghiệm văn hóa LifeAtCoke độc đáo, khác biệt.		
+					.text-learn
+						h1 03		
+					.box-deve
+						p Bạn sẽ 
+							span(style="color: red") ĐẠT THÀNH TỰU VƯỢT TRỘI 
+							| khi tạo ra ảnh hưởng và gặt hái thành công từ những ngày đầu tiên với mục tiêu đầy thách thức.
+				.col-sm-6.col-md-4.box-align
+					.text-learn
+						h1 02
+					.box
+						p Bạn sẽ 
+							span(style="color: red") PHÁT TRIỂN TOÀN DIỆN 
+							| Bạn sẽ PHÁT TRIỂN TOÀN DIỆN với sự cố vấn và huấn luyện từ Lãnh đạo cấp cao và thể nghiệm những giá trị cốt lõi của Coca-Cola.
+					.text-learn
+						h1 04		
+					.box-deve
+						p Bạn sẽ có 
+							span(style="color: red") TRÃI NGHIỆM QUỐC TẾ  
+							| Bạn sẽ có TRẢI NGHIỆM QUỐC TẾ qua việc khám phá nhiều nền văn hóa khác nhau, đồng thời trải nghiệm môi trường làm việc đa dạng và tôn trọng sự khác biệt.
+				.col-sm-6.col-md-4.box-img
+					img(src="../element Microsite/Rectangle 49.png" alt="responsive")
+	main.container-fluid.how
+		.row
+			.col-md-12
+				.how-img
+					img(src="../element Microsite/icon cach thuc.png" alt="responsive")
+		.text-choose
+			h1 THAM GIA 
+		.row
+			.col-md-3.col-sm-6.file
+				.file-icon
+					img(src="../element Microsite/3 month.png" alt="responsive")
+				.file-month
+					P THÁNG 01 - 02
+				.text-leader
+					P 
+						span(style="font-weight: bold") Vòng sơ loại hồ sơ
+			.col-md-3.col-sm-6.file
+				.file-icon
+					img(src="../element Microsite/3-5.png" alt="responsive")
+				.file-month
+					P THÁNG 03 - 04
+				.text-leader
+					P 
+						span(style="font-weight: bold") Vòng phỏng vấn
+							br 
+							| và trung tâm đánh giá
+			.col-md-3.col-sm-6.file
+				.file-icon
+					img(src="../element Microsite/4-5.png" alt="responsive")
+				.file-month
+					P THÁNG 04 - 05
+				.text-leader
+					P 
+						span(style="font-weight: bold") Vòng phỏng vấn
+							br
+							| với Lãnh đạo
+			.col-md-3.col-sm-6.file
+				.file-icon
+					img(src="../element Microsite/6-7.png" alt="responsive")
+				.file-month
+					P THÁNG 06 - 07
+				.text-leader
+					P 
+						span(style="font-weight: bold") Gia nhập Coca-Cola
+							br 
+							| trong vai trò
+							br
+							| Nhà Lãnh đạo thế hệ mới
+		.row
+			.col-md-12
+				.how-img
+					img(src="../element Microsite/icon tieu chi.png" alt="responsive" style="margin-top: -150px")
+		.text-choose
+			h1 TÌM KIẾM
+		.container
+			.row
+				.col-md-6.col-sm-6
+					.row
+						.col-md-3
+							.find
+								img(src="../element Microsite/icon _1.png" alt="responsive")
+						.col-md-9
+							.text-leader
+								p 
+									span(style="text-align: left") Sinh viên năm cuối hoặc dưới 1 năm kinh nghiệm
+				.col-md-6.col-sm-6
+
+
+
+
+
+
+
+		
+
+
+
+				
+		
+    
+        
+
+
+block body_end	
+	script(src="../../js/index.js")
