@@ -40,8 +40,8 @@ block content
 					img(src="../element Microsite/Rectangle 6@2x.png" alt="responsive")
 		.row
 			.col-sm-6.col-md-6
-				.banner-kv
-					img(src="../element Microsite/hinh kv.png" alt="responsive")
+				.banner-kv.clearfix
+					img.float-right(src="../element Microsite/hinh kv.png" alt="responsive")
 			.col-sm-6.col-md-6
 				.banner-aspire
 					img(src="../element Microsite/dung bo lo.png" alt="responsive")
@@ -63,98 +63,97 @@ block content
 						p Trở thành Nhà Lãnh đạo Thế hệ mới ngay hôm nay!
 					.button-position
 						button.btn.button(onclick='newFunction()')(type='submit') Ứng tuyển tại đây
-		.row.banner-part
+		.row
 			.col-sm-6.col-md-4
 				.banner-bear
 					img(src="../element Microsite/gau s1.png" alt="responsive")
-			.col-sm-6.col-md-8.banner-form
-				.row.g2
-					.col-sm-12.col-md-6
-						.banner-form-in
-							.banner-form-in-user
-								input(type='text' placeholder='Họ và tên')
-								i.fa.fa-user(aria-hidden='true')
-							.banner-form-in-mail
-								input(type='text' placeholder='Email')
-								i.fa.fa-envelope-o(aria-hidden='true')
-							.banner-form-in-phone
-								input(type='text' placeholder='Số điện thoại')
-								i.fa.fa-phone(aria-hidden='true')
-							.banner-form-in-score
-								input(type='text' placeholder='Điểm trung bình Đại học')
-								i.fa.fa-file-text-o(aria-hidden='true')
-					.col-sm-12.col-md-6
-						.banner-form-in
-							.banner-form-in-user
-								input(type='text' placeholder='Năm tốt nghiệp đại học')
-								i.fa.fa-graduation-cap(aria-hidden='true')
-							.banner-form-in-mail
-								input(type='text' placeholder='Địa điểm mong muốn làm việc')
-								i.fa.fa-map-marker(aria-hidden='true')
-							.banner-form-in-phone
-								input(type='text' placeholder='Vị trí ứng tuyển')
-								i.fa.fa-briefcase(aria-hidden='true')
-							.banner-form-in-score
-								input(type='text' placeholder='Hồ sơ của bạn')
-								i.fa.fa-file-o(aria-hidden='true')
-								i.fa.fa-upload(aria-hidden='true' style="left:-10%")
-				.row
-					.col-md-12.button-done
-							button.btn.button(onclick='newFunction()')(type='submit') Hoàn thành
+			.col-sm-6.col-md-8
+				.banner-form
+					.row.g2
+						.col-sm-12.col-md-6
+							.banner-form-in
+								.banner-form-in-user
+									input(type='text' placeholder='Họ và tên')
+									i.fa.fa-user(aria-hidden='true')
+								.banner-form-in-mail
+									input(type='text' placeholder='Email')
+									i.fa.fa-envelope-o(aria-hidden='true')
+								.banner-form-in-phone
+									input(type='text' placeholder='Số điện thoại')
+									i.fa.fa-phone(aria-hidden='true')
+								.banner-form-in-score
+									input(type='text' placeholder='Điểm trung bình Đại học')
+									i.fa.fa-file-text-o(aria-hidden='true')
+						.col-sm-12.col-md-6
+							.banner-form-in
+								.banner-form-in-user
+									input(type='text' placeholder='Năm tốt nghiệp đại học')
+									i.fa.fa-graduation-cap(aria-hidden='true')
+								.banner-form-in-mail
+									input(type='text' placeholder='Địa điểm mong muốn làm việc')
+									i.fa.fa-map-marker(aria-hidden='true')
+								.banner-form-in-phone
+									input(type='text' placeholder='Vị trí ứng tuyển')
+									i.fa.fa-briefcase(aria-hidden='true')
+								.banner-form-in-score
+									input(type='text' placeholder='Hồ sơ của bạn')
+									i.fa.fa-file-o(aria-hidden='true')
+									i.fa.fa-upload(aria-hidden='true' style="left: 85%")
+					.row
+						.col-md-12.button-done
+								button.btn.button(onclick='newFunction()')(type='submit') Hoàn thành							
 	section.container-fluid.introduce
-		.row
-			.col-md-12
-				.introduce-img
-					img(src="../element Microsite/gioi thieu.png" alt="responsive")
-		.row
-			.col-md-12
-				.text-future
-					h1 
-						span(style="color:red") ASPIRE 
-						| FUTURE LEADERS
-				.text-leader
-					P 
-						| Chương trình Aspire Future Leaders 2021 là sáng kiến toàn cầu nhằm nuôi dưỡng tài năng trẻ cho thế hệ lãnh đạo tương lai từ 
-						br
-						| Coca-Cola thông qua lộ trình phát lộ trình phát triển toàn diện 24 tháng với những trải nghiệm ấn tượng, thú vị và độc đáo.
-						br
-						| Lần đầu tiên, Coca-Cola ra mắt 
-						span(style='font-weight: bold') Aspire Future Leaders 
-						| tại 6 thị trường khu vực Đông Nam Á, mang đến bạn cơ hội trải 
-						br
-						| nghiệm và chia sẻ tiếng nói trong môi trường quốc tế thực thụ.
-						br
-						span(style='font-weight: bold') Năm 2021, Coca-Cola chào đón những Nhà Lãnh đạo thế hệ mới gia nhập đội ngũ 
-						span(style='color: red') Aspire Future Leaders 
-						span(style='font-weight: bold') tại 5 phòng ban:
-		.container
 			.row
-				.col-md-2
+				.col-md-12
+					.introduce-img
+						img(src="../element Microsite/gioi thieu.png" alt="responsive")
+			.row
+				.col-md-12
+					.text-future
+						h1 
+							span(style="color:red") ASPIRE 
+							| FUTURE LEADERS
+					.text-leader
+						P 
+							| Chương trình Aspire Future Leaders 2021 là sáng kiến toàn cầu nhằm nuôi dưỡng tài năng trẻ cho thế hệ lãnh đạo tương lai từ 
+							br
+							| Coca-Cola thông qua lộ trình phát lộ trình phát triển toàn diện 24 tháng với những trải nghiệm ấn tượng, thú vị và độc đáo.
+							br
+							| Lần đầu tiên, Coca-Cola ra mắt 
+							span(style='font-weight: bold') Aspire Future Leaders 
+							| tại 6 thị trường khu vực Đông Nam Á, mang đến bạn cơ hội trải 
+							br
+							| nghiệm và chia sẻ tiếng nói trong môi trường quốc tế thực thụ.
+							br
+							span(style='font-weight: bold') Năm 2021, Coca-Cola chào đón những Nhà Lãnh đạo thế hệ mới gia nhập đội ngũ 
+							span(style='color: red') Aspire Future Leaders 
+							span(style='font-weight: bold') tại 5 phòng ban:
+			.row.sold
+				.col-md-2.sell
 					.button-Recruitment
 						img(src="../element Microsite/ban hang.png" alt="responsive")
 						p Bán Hàng
 						button.btn.button(onclick='newFunction()')(type='submit') Ứng tuyển ngay
-				.col-md-2 
+				.col-md-2.sell
 					.button-Recruitment
 						img(src="../element Microsite/Path 456@2x.png" alt="responsive")
 						p Thương Mại
 						button.btn.button(onclick='newFunction()')(type='submit') Ứng tuyển ngay
-				.col-md-2 
+				.col-md-2.sell
 					.button-Recruitment
 						img(src="../element Microsite/chuoi cung ung.png" alt="responsive")
 						p Chuỗi Cung Ứng
 						button.btn.button(onclick='newFunction()')(type='submit') Ứng tuyển ngay
-				.col-md-2 
+				.col-md-2.sell
 					.button-Recruitment
 						img(src="../element Microsite/tai chinh.png" alt="responsive")
 						p Tài Chính
 						button.btn.button(onclick='newFunction()')(type='submit') Ứng tuyển ngay
-				.col-md-2
+				.col-md-2.sell
 					.button-Recruitment
 						img(src="../element Microsite/nhan su.png" alt="responsive")
 						p Nhân Sự
 						button.btn.button(onclick='newFunction()')(type='submit') Ứng tuyển ngay
-		.container
 			.row
 				.col.md-12
 					.why-img
@@ -245,27 +244,84 @@ block content
 					img(src="../element Microsite/icon tieu chi.png" alt="responsive" style="margin-top: -150px")
 		.text-choose
 			h1 TÌM KIẾM
-		.container
-			.row
-				.col-md-6.col-sm-6
-					.row
-						.col-md-3
-							.find
-								img(src="../element Microsite/icon _1.png" alt="responsive")
-								img(src="../element Microsite/icon _1.png" alt="responsive")
-								img(src="../element Microsite/icon _1.png" alt="responsive")
-								img(src="../element Microsite/icon _1.png" alt="responsive")
-						.col-md-9
-							.text-leader
-								p 
-									span(style="text-align: left") Sinh viên năm cuối hoặc dưới 1 năm kinh nghiệm
-								p 
-									span(style="text-align: left")  Đam mê phát triển sự nghiệp ngành FMCG
-								p 
-									span(style="text-align: left")  Kỹ năng phân tích, tư duy logic và phản biện tốt
-								p 
-									span(style="text-align: left")  Kỹ năng giao tiếp hiệu quả
-				.col-md-6.col-sm-6
+		.row
+			.col-md-6.col-sm-6.left
+				div
+					img.img-valign(src="../element Microsite/icon _1.png" alt="responsive")
+					span.text1 Sinh viên năm cuối hoặc dưới 1 năm kinh nghiệm	
+				div
+					img.img-valign(src="../element Microsite/Group 920@2x.png" alt="responsive")
+					span.text1  Đam mê phát triển sự nghiệp ngành FMCG
+				div
+					img.img-valign(src="../element Microsite/Group 923@2x.png" alt="responsive")
+					span.text1  Kỹ năng phân tích, tư duy logic và phản biện tốt
+				div
+					img.img-valign(src="../element Microsite/Group 918@2x.png" alt="responsive")
+					span.text1  Kỹ năng giao tiếp hiệu quả				
+			.col-md-6.col-sm-6.right
+				div
+					img.img-valign(src="../element Microsite/icon3.png" alt="responsive")
+					span.text1 Tinh thần cầu tiến và sáng tạo trong giải quyết vấn đề
+				div
+					img.img-valign(src="../element Microsite/hand.png" alt="responsive")
+					span.text1  Tinh thần hợp tác và tiềm năng dẫn dắt người khác
+				div
+					img.img-valign(src="../element Microsite/cm.png" alt="responsive")
+					span.text1  Giao tiếp tiếng Việt và tiếng Anh xuất sắc
+				div
+					img.img-valign(src="../element Microsite/GPA.png" alt="responsive")
+					span.text1 Điểm trung bình (GPA) Đại học đạt từ 7.0/10 hoặc thang tương đương	
+	section.container-fluid.team
+		.row
+			.col-md-12
+				.text-future-team
+					h1 
+						span(style="color:red") RED 
+						| TEAM
+		.row
+			.col-md-12
+				.team-img
+					img(src="../element Microsite/Bang.png" alt="responsive")
+				.team-le
+					p LÊ HỮU BẰNG
+		.row
+			.col-md-12
+				.text-leader
+					P
+						span(style="font-weight: bold") (NGL 2019 – Phòng Chuỗi Cung Ứng)
+						br
+						| “Khi tham gia NGL của Coca-Cola, mình có cơ hội được trải nghiệm nhiều vị trí và công việc khác nhau 
+						br
+						| trong Phòng Chuỗi Cung Ứng. Đặc biệt, mình rất may mắn khi được tham gia vào nhiều dự án lớn của 
+						br
+						| công ty, làm việc trong một môi trường quốc tế và chuyên nghiệp …
+		.row.team-story
+			.col-md-12
+				.text-leader
+					P Ai cũng có những câu chuyện của riêng mình. Hãy để Coca-Cola Việt Nam cùng bạn viết nên câu chuyện đáng tự hào ấy.
+						br
+						| Bắt đầu sự nghiệp của bạn như những Coca-Cola Aspirers ngay hôm nay!
+				.button-join.float-right
+						button.btn.button(onclick='newFunction()')(type='submit') ỨNG TUYỂN NGAY
+	footer.container-fluid.footer
+		.row
+			.col-sm-6.col-md-3
+				.logojobtest
+						img(src="../element Microsite/logojobtest.png" alt="responsive")
+			.col-sm-6.col-md-3.facebook
+				div
+					span.footer-text Follow us on:
+					img.footer-img(src='../element Microsite/facebook.png' alt='')
+					img.footer-img(src='../element Microsite/in.png' alt='')
+			.col-md-6.copy
+				div
+					span.footer-text Copyright JobTest © 2021.  All Rights Reserved
+
+
+				
+
+
+				
 
 
 

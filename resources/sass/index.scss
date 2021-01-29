@@ -1,9 +1,11 @@
+$color-red: #d02c24;
+$heading-1: 20pt;
+
 body {
-    position: relative;
     font-family: 'Montserrat', sans-serif;
 }
 .menu {
-    padding-left: 10%;
+    padding-left: 60px;
     background-color: #fefefe;
     &-logo img {
         height: 50px;
@@ -18,35 +20,29 @@ body {
         font-weight: 500;
         font-stretch: normal;
         font-style: normal;
-        line-height: 0.5;
         letter-spacing: normal;
         color: #000000;
         padding-left: 15px;
     }
 }
 .banner {
-    background-image: url('../../public/element Microsite/Scroll Group 1@2x.png');
+    background-image: url('../../public/element Microsite/banner.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 300vh;
-    &-part {
-        margin-top: 100px;
-    }
+    height: 1100px;
     &-img { 
         height: auto;
         & img {
-            width: 800px;
-            display: block; 
+            width: 300px;
+            display: block;
             margin-left: auto;
             margin-right: auto;
+            }
         }
-    }
     &-kv img {
         height: auto;
-        width: 80%;
-        margin-left: 25%;
-        margin-top: -180px;
+        width: 400px;
     }
     &-aspire {
         margin-left: 40px;
@@ -56,56 +52,67 @@ body {
         height: auto;
         width: 200px;
     }
-    &-bear {
-        height: auto;
-    }
     &-bear img {
         width: 300px;
         display: block; 
         margin-left: auto;
         margin-right: auto;
+        height: auto;
         }
     &-form {
-        background-color:  #161a1d;
-        width: 90%;    
+        background-color:  #161a1d;  
         height: auto;
-        padding-top: 60px;
-        padding-left: 30px;
         border-radius: 8px;
-        margin-bottom: 600px;
         margin-right: auto;
         margin-left: auto;
+        padding: 30px 20px;
         &-in { 
-            padding-bottom: 40px; 
-            &-user i {
-                position: relative; 
-                left: -87%; 
-                top: -1px;  
-                height: 60px;   
+            padding-top: 10px;
+            &-user{
+                margin-bottom: 30px;
+                position: relative;
+                i {
+                    position: absolute;
+                    left: 8px;
+                    top: 12px;
+                    height: 60px;
+                }
             }
-            &-mail i {
-                position: relative; 
-                left: -87%; 
-                top: -1px;      
-                height: 60px;
+            &-mail{
+                margin-bottom: 30px;
+                position: relative;
+                i {
+                    position: absolute; 
+                    left: 8px;
+                    top: 12px;      
+                    height: 60px;
+                }
             }
-            &-phone i {
-                position: relative; 
-                left: -87%; 
-                top: -1px;  
-                height: 60px;
+            &-phone{
+                margin-bottom: 30px;
+                position: relative;
+                i {
+                    position: absolute; 
+                    left: 8px;
+                    top: 12px;      
+                    height: 60px;
+                }
             }
-            &-score i {
-                position: relative; 
-                left: -87%; 
-                top: -1px;  
-                height: 60px;
+            &-score{
+                margin-bottom: 30px;
+                position: relative;
+                i {
+                    position: absolute; 
+                    left: 8px;
+                    top: 12px;      
+                    height: 60px;
+                }
             }
-        }
-    }
+    }   }
 }
+
 input[type=text]{
-    width: 90%;
+    width: 100%;
     border: none;
     border-bottom: 1px solid black;
     height: 40px;
@@ -120,31 +127,28 @@ input[type=text]{
     color: white;
     &-coca {
         font-size: 14px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1;
         letter-spacing: normal;
         color: #fefefe;
     }
     &-future {
         font-size: 33px;
         font-weight: 300;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.21;
         letter-spacing: normal;
         color: #fefefe;
         text-align: center;
         margin-top: 40px;
+        &-team {
+            font-size: 33px;
+            font-weight: 300;
+            letter-spacing: normal;
+            color: #fefefe;
+            text-align: center;
+            margin-top: 100px;
+        }
     }
     &-leader {
         p{
             font-size: 14px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 2;
             letter-spacing: normal;
             color:#fefefe;
             text-align: center;
@@ -153,10 +157,6 @@ input[type=text]{
     &-choose {
         font-size: 33px;
         font-weight: 300;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.21;
-        letter-spacing: normal;
         text-align: center;
         color: #fefefe;
         margin-top: 50px;
@@ -164,10 +164,7 @@ input[type=text]{
     &-learn {
         font-size: 40px;
         font-weight: 1200;
-        font-stretch: normal;
-        font-style: normal;
         line-height: 2.01;
-        letter-spacing: normal;
         color: #d02c24;
     }
 }
@@ -180,7 +177,7 @@ input[type=text]{
     text-align: center;
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: red; 
+    background-color: $color-red; 
     border: 0.5px solid none;
     font-size: 14px;
     font-weight: 900;
@@ -194,17 +191,16 @@ input[type=text]{
         box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
     }
     &-done {
-        padding-left: 40%;
-        padding-bottom: 50px;
+       text-align: center;
+    }
+    &-join {    
         margin-top: -30px;
     }
+
     &-Recruitment {
-        margin-top: 30px;
-        margin-left: -4%;
         & img {
             height: auto;
             width: 80px;
-            margin-top: -160px;
         }
         & p {
             font-size: 14px;
@@ -214,8 +210,6 @@ input[type=text]{
             letter-spacing: normal;
             text-align: center;
             color: #161a1d;
-            margin-top: -50px;
-            margin-bottom: 3px;
         }
     }
 }
@@ -225,10 +219,9 @@ input[type=text]{
     background-position: center;
     background-repeat: no-repeat;
     height: auto;
-    margin-top: -510px;
+    padding-top: 300px;
     &-img {
         height: auto;
-        margin-top: 200px;
         & img {
             display: block;
             width: 200px;
@@ -237,26 +230,24 @@ input[type=text]{
         }
     }
 }
-.col-md-2 {
+.sell {
+    margin: 20px;
     height: 200px;
-    background-color:#ffffff;
+    background-color: #ffffff;
     font-size: 20px;
     text-align: center;
-    padding-top:100px;
-    margin-left:30px;
-    margin-top: 70px;
+    padding: 20px;
     border-radius: 5px;
-    padding-left: 25px;
 }
 .why-img {
     height: auto;
     margin-top: 100px;
-}
-.why-img img {
-    width: 200px;
-    display: block; 
-    margin-left: auto;
-    margin-right: auto;
+    img {
+        width: 200px;
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .box {
     width: 300px;
@@ -264,11 +255,7 @@ input[type=text]{
     background-color: #ffffff;
     padding: 10px;
     font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.54;
-    letter-spacing: normal;
     text-align: left;
     color: #161a1d;
     margin-bottom: 50px;
@@ -278,11 +265,7 @@ input[type=text]{
         background-color: #ffffff;
         padding: 10px;
         font-size: 14px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
         line-height: 1.54;
-        letter-spacing: normal;
         text-align: left;
         color: #161a1d;
     }
@@ -299,17 +282,17 @@ input[type=text]{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: auto    ;
+    height: auto;
     margin-top: -200px;
     z-index: -9999;
-    position: absolute;
+    position: relative;
     &-img {
         height: auto;
-        margin-top: 300px;
+        margin-top: 200px;
         & img {
             width: 200px;
             display: block;
-            margin-left: auto;
+            margin-left: auto;  
             margin-right: auto;
         }
     }
@@ -334,10 +317,7 @@ input[type=text]{
         & p {
             font-size: 20px;
             font-weight: 800;
-            font-stretch: normal;
-            font-style: normal;
             line-height: 1.54;
-            letter-spacing: normal;
             text-align: center;
             color: #ffffff;
             padding-top: 15px;
@@ -345,9 +325,101 @@ input[type=text]{
         }
     }
 }
-.find img{
-    height: 50px;
-    width: 50px;
-    margin-left: 80%;
-    margin-top: -15px;
+.left {
+    margin-bottom: 100px;
+}
+.right {
+    margin-bottom: 100px;
+}
+.left div {
+    padding-top: 40px;
+}
+.img-valign {
+    height: 30px;
+    width: 30px;
+}
+.text1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 0.5;
+    color: #ffffff;
+    padding-left: 20px; 
+}
+.right div {
+    padding-top: 40px;
+}
+.team {
+    background-image: url('../../public/element Microsite/Path 1@2x.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    margin-top: -95px;
+    &-img {
+        height: auto;
+        margin-top: 20px;
+        & img {
+            width: 300px;
+            display: block;
+            margin-left: auto;  
+            margin-right: auto;
+        }
+    }
+    &-le {
+        background-image: url('../../public/element Microsite/Path 1264@2x.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 10vh;
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        & p {
+            font-size: 30px;
+            font-weight: 900;
+            line-height: 1.2;
+            text-align: center;
+            color: #ffffff;
+            padding-left: 20px;
+            padding-top: 15px;
+        }
+    }
+    &-story {
+        margin-top: 50px;
+        width: auto;
+        height: 150px;
+        background-color: black;
+        padding-top: 50px;
+       
+    }
+}
+
+.footer {
+    height: 100px;
+    background-color:#ffffff;
+    &-text {
+        font-weight: 600;
+        font-size: 16px;
+        color: #161a1d;
+    }
+    &-img {
+        vertical-align: middle;
+        margin-bottom: 0.75em;
+        margin-left: 30px;
+    
+    }
+}
+.logojobtest img {
+    width: 200px;
+    margin: 0 auto;
+}
+.facebook {
+    padding: 20px;
+   margin: 0 auto;
+}
+.copy {
+    padding: 20px;
+  margin: 0 auto;
 }
