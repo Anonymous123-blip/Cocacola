@@ -22,11 +22,11 @@ mix
     })
     .sass('resources/sass/app.scss', 'public/css')
     .sass('resources/sass/main.scss', 'public/css')
-    .sass('resources/sass/index.scss', 'public/css');
+    .sass('resources/sass/index.scss', 'public/css')
 
     // .sass('resources/sass/right.scss', 'public/css');
 
 // mix.js('resources/js/app.js', 'public/js')
 
-// .disableNotifications();
+.disableNotifications();
 

@@ -28,7 +28,7 @@ body {
 }
 
 .banner {
-  background-image: url(/images/banner.png?aa19c255bb53c6736c7eee2b8fe634ed);
+  background-image: url(/public/images/banner.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -243,7 +243,7 @@ input[type=text]:focus {
 }
 
 .introduce {
-  background-image: url("/images/Path 422@2x.png?5bb6bfedf8186db401096b7d88ee7ad6");
+  background-image: url("/public/images/Path 422@2x.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -317,7 +317,7 @@ input[type=text]:focus {
 }
 
 .how {
-  background-image: url("/images/Rectangle 1.png?3701bb3ed16b7e0f68144ce640cd5f91");
+  background-image: url("/public/images/Rectangle 1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -352,7 +352,7 @@ input[type=text]:focus {
 }
 
 .file-month {
-  background-image: url("/images/Path 1264@2x.png?1855deb59fc0291935580d53ac99636b");
+  background-image: url("/public/images/Path 1264@2x.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -401,7 +401,7 @@ input[type=text]:focus {
 }
 
 .team {
-  background-image: url("/images/Path 1@2x.png?b2ba06954b3814a723aa407b7e6561f5");
+  background-image: url("/public/images/Path 1@2x.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -422,7 +422,7 @@ input[type=text]:focus {
 }
 
 .team-le {
-  background-image: url("/images/Path 1264@2x.png?1855deb59fc0291935580d53ac99636b");
+  background-image: url("/public/images/Path 1264@2x.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
