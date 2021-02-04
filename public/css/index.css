@@ -223,10 +223,6 @@ input[type=text]:focus {
   text-align: center;
 }
 
-.button-join {
-  margin-top: -30px;
-}
-
 .button-Recruitment img {
   height: auto;
   width: 80px;
@@ -240,6 +236,17 @@ input[type=text]:focus {
   letter-spacing: normal;
   text-align: center;
   color: #161a1d;
+}
+
+.button-join {
+  margin-left: 88%;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 992px) {
+  .button-join {
+    margin-left: 50%;
+  }
 }
 
 .introduce {

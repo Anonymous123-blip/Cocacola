@@ -7,6 +7,8 @@ block head_end
 	link(rel="stylesheet" href="../css/index.css")
 	link(rel='preconnect' href='https://fonts.gstatic.com')
 	link(href='https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap' rel='stylesheet')
+	link(href='https://unpkg.com/aos@2.3.1/dist/aos.css' rel='stylesheet')
+	script(src='https://unpkg.com/aos@2.3.1/dist/aos.js')
 
 block content
 	nav.navbar.navbar-expand-lg.navbar-light.container-fluid.menu
@@ -35,14 +37,14 @@ block content
 	//-end menu ************************************************
 	section.container-fluid.banner
 		.row
-			.col-md-12
+			.col-md-12(data-aos='zoom-in')
 				.banner-img
 					img(src="../image/Rectangle 6@2x.png" alt="responsive")
 		.row
-			.col-sm-6.col-md-6
+			.col-sm-6.col-md-6(data-aos='zoom-in')
 				.banner-kv.clearfix
 					img.float-right(src="../image/hinh kv.png" alt="responsive")
-			.col-sm-6.col-md-6
+			.col-sm-6.col-md-6(data-aos='zoom-in')
 				.banner-aspire
 					img(src="../image/dung bo lo.png" alt="responsive")
 					.text
@@ -64,10 +66,10 @@ block content
 					.button-position
 						button.btn.button(onclick='newFunction()')(type='submit') Ứng tuyển tại đây
 		.row
-			.col-md-4
+			.col-md-4(data-aos='zoom-in')
 				.banner-bear
 					img(src="../image/gau s1.png" alt="responsive")
-			.col-md-8
+			.col-md-8(data-aos='zoom-in')
 				.banner-form
 					.row
 						.col-md-6
@@ -104,14 +106,14 @@ block content
 								button.btn.button(onclick='newFunction()')(type='submit') Hoàn thành							
 	section.container-fluid.introduce
 		.row
-			.col-md-12
+			.col-md-12(data-aos='zoom-in')
 				.introduce-img
 					img(src="../image/gioi thieu.png" alt="responsive")
 				.text-future
 					h1 
 						span(style="color:red") ASPIRE 
 						| FUTURE LEADERS
-				.text-leader
+				.text-leader(data-aos='zoom-in')
 					P 
 						| Chương trình Aspire Future Leaders 2021 là sáng kiến toàn cầu nhằm nuôi dưỡng tài năng trẻ cho thế hệ lãnh đạo tương lai từ 
 						br
@@ -126,7 +128,7 @@ block content
 						span(style='font-weight: bold') Năm 2021, Coca-Cola chào đón những Nhà Lãnh đạo thế hệ mới gia nhập đội ngũ 
 						span(style='color: red') Aspire Future Leaders 
 						span(style='font-weight: bold') tại 5 phòng ban:
-		.row.sold
+		.row.sold(data-aos='zoom-in')
 			.col-md-2.sell
 				.button-Recruitment
 					img(src="../image/ban hang.png" alt="responsive")
@@ -152,14 +154,14 @@ block content
 					img(src="../image/nhan su.png" alt="responsive")
 					p Nhân Sự
 					button.btn.button(onclick='newFunction()')(type='submit') Ứng tuyển ngay
-		.row
+		.row(data-aos='zoom-in')
 			.col.md-12
 				.why-img
 					img(src="../image/icon vi sao.png" alt="responsive")
 				.text-choose
 					h1 BẠN CHỌN 
 					span(style="color: red") ASPIRE
-		.row
+		.row(data-aos='zoom-in')
 			.col-sm-6.col-md-4
 				.text-learn
 					h1 01
@@ -189,13 +191,13 @@ block content
 			.col-sm-6.col-md-4.box-img
 				img(src="../image/Rectangle 49.png" alt="responsive")
 	main.container-fluid.how
-		.row
+		.row(data-aos='zoom-in')
 			.col-md-12
 				.how-img
 					img(src="../image/icon cach thuc.png" alt="responsive")
-		.text-choose
+		.text-choose(data-aos='zoom-in')
 			h1 THAM GIA 
-		.row
+		.row(data-aos='zoom-in')
 			.col-md-3.col-sm-6.file
 				.file-icon
 					img(src="../image/3 month.png" alt="responsive")
@@ -236,13 +238,13 @@ block content
 							| trong vai trò
 							br
 							| Nhà Lãnh đạo thế hệ mới
-		.row
+		.row(data-aos='zoom-in')
 			.col-md-12
 				.how-img
 					img(src="../image/icon tieu chi.png" alt="responsive" style="margin-top: -150px")
-		.text-choose
+		.text-choose(data-aos='zoom-in')
 			h1 TÌM KIẾM
-		.row
+		.row(data-aos='zoom-in')
 			.col-md-6.col-sm-6.left
 				div
 					img.img-valign(src="../image/icon _1.png" alt="responsive")
@@ -270,19 +272,19 @@ block content
 					img.img-valign(src="../image/GPA.png" alt="responsive")
 					span.text1 Điểm trung bình (GPA) Đại học đạt từ 7.0/10 hoặc thang tương đương	
 	section.container-fluid.team
-		.row
+		.row(data-aos='zoom-in')
 			.col-md-12
 				.text-future-team
 					h1 
 						span(style="color:red") RED 
 						| TEAM
-		.row
+		.row(data-aos='zoom-in')
 			.col-md-12
 				.team-img
 					img(src="../image/Bang.png" alt="responsive")
 				.team-le
 					p LÊ HỮU BẰNG
-		.row
+		.row(data-aos='zoom-in')
 			.col-md-12
 				.text-leader
 					P
@@ -298,15 +300,15 @@ block content
 				.text-leader
 					P Ai cũng có những câu chuyện của riêng mình. Hãy để Coca-Cola Việt Nam cùng bạn viết nên câu chuyện đáng tự hào ấy.
 						br
-						| Bắt đầu sự nghiệp của bạn như những Coca-Cola Aspirers ngay hôm nay!
-				.button-join.float-right
-						button.btn.button(onclick='newFunction()')(type='submit') ỨNG TUYỂN NGAY
+						| Bắt đầu sự nghiệp của bạn như những Coca-Cola Aspirers ngay hôm nay	
+			.button-join.fixed-bottom
+				button.btn.button(onclick='newFunction()')(type='submit') ỨNG TUYỂN NGAY							
 	footer.container-fluid.footer
 		.row
-			.col-sm-6.col-md-3
+			.col-md-3
 				.logojobtest
 						img(src="../image/logojobtest.png" alt="responsive")
-			.col-sm-6.col-md-3.facebook
+			.col-md-3.facebook
 				div
 					span.footer-text Follow us on:
 					img.footer-img(src='../image/facebook.png' alt='')
@@ -338,4 +340,4 @@ block content
 
 
 block body_end	
-	script(src="../../js/index.js")
+	script(src="../../resources/js/index.js")
