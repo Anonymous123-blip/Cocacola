@@ -220,6 +220,7 @@ input[type=text]{
     background-repeat: no-repeat;
     height: auto;
     padding-top: 300px;
+    margin-top: -100px;
     &-img {
         height: auto;
         & img {
@@ -283,9 +284,9 @@ input[type=text]{
     background-position: center;
     background-repeat: no-repeat;
     height: auto;
+    position: relative;
     margin-top: -200px;
     z-index: -9999;
-    position: relative;
     &-img {
         height: auto;
         margin-top: 200px;
@@ -395,7 +396,6 @@ input[type=text]{
        
     }
 }
-
 .footer {
     height: 100px;
     background-color:#ffffff;
@@ -417,9 +417,13 @@ input[type=text]{
 }
 .facebook {
     padding: 20px;
-   margin: 0 auto;
+    margin: 0 auto;
 }
 .copy {
     padding: 20px;
-  margin: 0 auto;
+    margin: 0 auto;
+}
+section {
+    display: table;
+    padding: 0;
 }

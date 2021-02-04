@@ -249,6 +249,7 @@ input[type=text]:focus {
   background-repeat: no-repeat;
   height: auto;
   padding-top: 300px;
+  margin-top: -100px;
 }
 
 .introduce-img {
@@ -322,9 +323,9 @@ input[type=text]:focus {
   background-position: center;
   background-repeat: no-repeat;
   height: auto;
+  position: relative;
   margin-top: -200px;
   z-index: -9999;
-  position: relative;
 }
 
 .how-img {
@@ -481,5 +482,10 @@ input[type=text]:focus {
 .copy {
   padding: 20px;
   margin: 0 auto;
+}
+
+section {
+  display: table;
+  padding: 0;
 }
 
