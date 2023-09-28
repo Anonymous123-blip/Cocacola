@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="../css/index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&amp;display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light container-fluid menu"><a class="navbar-brand menu-logo" href="#"><img src="../element Microsite/logo coke.png" alt="responsive"></a>
+    <nav class="navbar navbar-expand-lg navbar-light container-fluid menu"><a class="navbar-brand menu-logo" href="#"><img src="../image/logo coke.png" alt="responsive"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
@@ -28,16 +30,16 @@
     </nav>
     <section class="container-fluid banner">
       <div class="row">
-        <div class="col-md-12">
-          <div class="banner-img"><img src="../element Microsite/Rectangle 6@2x.png" alt="responsive"></div>
+        <div class="col-md-12" data-aos="zoom-in">
+          <div class="banner-img"><img src="../image/Rectangle 6@2x.png" alt="responsive"></div>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6 col-md-6">
-          <div class="banner-kv"><img src="../element Microsite/hinh kv.png" alt="responsive"></div>
+        <div class="col-sm-6 col-md-6" data-aos="zoom-in">
+          <div class="banner-kv clearfix"><img class="float-right" src="../image/hinh kv.png" alt="responsive"></div>
         </div>
-        <div class="col-sm-6 col-md-6">
-          <div class="banner-aspire"><img src="../element Microsite/dung bo lo.png" alt="responsive">
+        <div class="col-sm-6 col-md-6" data-aos="zoom-in">
+          <div class="banner-aspire"><img src="../image/dung bo lo.png" alt="responsive">
             <div class="text">
               <h1> <span style="color: red; font-weight: bold">A</span><span style="font-weight: lighter">SPIRE</span></h1>
               <h1> <span style="color: red; font-weight: bold">F</span>UTURE</h1>
@@ -54,48 +56,50 @@
           </div>
         </div>
       </div>
-      <div class="row banner-part">
-        <div class="col-sm-6 col-md-4">
-          <div class="banner-bear"><img src="../element Microsite/gau s1.png" alt="responsive"></div>
+      <div class="row">
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="banner-bear"><img src="../image/gau s1.png" alt="responsive"></div>
         </div>
-        <div class="col-sm-6 col-md-8 banner-form">
-          <div class="row g2">
-            <div class="col-sm-12 col-md-6">
-              <div class="banner-form-in">
-                <div class="banner-form-in-user">
-                  <input type="text" placeholder="Họ và tên"><i class="fa fa-user" aria-hidden="true"></i>
+        <div class="col-md-8" data-aos="zoom-in">
+          <div class="banner-form">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="banner-form-in">
+                  <div class="banner-form-in-user">
+                    <input type="text" placeholder="Họ và tên"><i class="fa fa-user" aria-hidden="true"></i>
+                  </div>
+                  <div class="banner-form-in-mail">
+                    <input type="text" placeholder="Email"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  </div>
+                  <div class="banner-form-in-phone">
+                    <input type="text" placeholder="Số điện thoại"><i class="fa fa-phone" aria-hidden="true"></i>
+                  </div>
+                  <div class="banner-form-in-score">
+                    <input type="text" placeholder="Điểm trung bình Đại học"><i class="fa fa-file-text-o" aria-hidden="true"></i>
+                  </div>
                 </div>
-                <div class="banner-form-in-mail">
-                  <input type="text" placeholder="Email"><i class="fa fa-envelope-o" aria-hidden="true"></i>
-                </div>
-                <div class="banner-form-in-phone">
-                  <input type="text" placeholder="Số điện thoại"><i class="fa fa-phone" aria-hidden="true"></i>
-                </div>
-                <div class="banner-form-in-score">
-                  <input type="text" placeholder="Điểm trung bình Đại học"><i class="fa fa-file-text-o" aria-hidden="true"></i>
+              </div>
+              <div class="col-md-6">
+                <div class="banner-form-in">
+                  <div class="banner-form-in-user">
+                    <input type="text" placeholder="Năm tốt nghiệp đại học"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                  </div>
+                  <div class="banner-form-in-mail">
+                    <input type="text" placeholder="Địa điểm mong muốn làm việc"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                  </div>
+                  <div class="banner-form-in-phone">
+                    <input type="text" placeholder="Vị trí ứng tuyển"><i class="fa fa-briefcase" aria-hidden="true"></i>
+                  </div>
+                  <div class="banner-form-in-score">
+                    <input type="text" placeholder="Hồ sơ của bạn"><i class="fa fa-file-o" aria-hidden="true"></i><i class="fa fa-upload" aria-hidden="true" style="left: 85%"></i>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-6">
-              <div class="banner-form-in">
-                <div class="banner-form-in-user">
-                  <input type="text" placeholder="Năm tốt nghiệp đại học"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                </div>
-                <div class="banner-form-in-mail">
-                  <input type="text" placeholder="Địa điểm mong muốn làm việc"><i class="fa fa-map-marker" aria-hidden="true"></i>
-                </div>
-                <div class="banner-form-in-phone">
-                  <input type="text" placeholder="Vị trí ứng tuyển"><i class="fa fa-briefcase" aria-hidden="true"></i>
-                </div>
-                <div class="banner-form-in-score">
-                  <input type="text" placeholder="Hồ sơ của bạn"><i class="fa fa-file-o" aria-hidden="true"></i><i class="fa fa-upload" aria-hidden="true" style="left:-10%"></i>
-                </div>
+            <div class="row">
+              <div class="col-md-12 button-done">
+                <button class="btn button" onclick="newFunction()" type="submit">Hoàn thành							</button>
               </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 button-done">
-              <button class="btn button" onclick="newFunction()" type="submit">Hoàn thành</button>
             </div>
           </div>
         </div>
@@ -103,109 +107,101 @@
     </section>
     <section class="container-fluid introduce">
       <div class="row">
-        <div class="col-md-12">
-          <div class="introduce-img"><img src="../element Microsite/gioi thieu.png" alt="responsive"></div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12" data-aos="zoom-in">
+          <div class="introduce-img"><img src="../image/gioi thieu.png" alt="responsive"></div>
           <div class="text-future">
             <h1> <span style="color:red">ASPIRE </span>FUTURE LEADERS</h1>
           </div>
-          <div class="text-leader">
+          <div class="text-leader" data-aos="zoom-in">
             <P>
                Chương trình Aspire Future Leaders 2021 là sáng kiến toàn cầu nhằm nuôi dưỡng tài năng trẻ cho thế hệ lãnh đạo tương lai từ <br>Coca-Cola thông qua lộ trình phát lộ trình phát triển toàn diện 24 tháng với những trải nghiệm ấn tượng, thú vị và độc đáo.<br>Lần đầu tiên, Coca-Cola ra mắt <span style="font-weight: bold">Aspire Future Leaders </span>tại 6 thị trường khu vực Đông Nam Á, mang đến bạn cơ hội trải <br>nghiệm và chia sẻ tiếng nói trong môi trường quốc tế thực thụ.<br><span style="font-weight: bold">Năm 2021, Coca-Cola chào đón những Nhà Lãnh đạo thế hệ mới gia nhập đội ngũ </span><span style="color: red">Aspire Future Leaders </span><span style="font-weight: bold">tại 5 phòng ban:</span></P>
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2">
-            <div class="button-Recruitment"><img src="../element Microsite/ban hang.png" alt="responsive">
-              <p>Bán Hàng</p>
-              <button class="btn button" onclick="newFunction()" type="submit">Ứng tuyển ngay</button>
-            </div>
+      <div class="row sold" data-aos="zoom-in">
+        <div class="col-md-2 sell">
+          <div class="button-Recruitment"><img src="../image/ban hang.png" alt="responsive">
+            <p>Bán Hàng</p>
+            <button class="btn button" onclick="newFunction()" type="submit">Ứng tuyển ngay</button>
           </div>
-          <div class="col-md-2"> 
-            <div class="button-Recruitment"><img src="../element Microsite/Path 456@2x.png" alt="responsive">
-              <p>Thương Mại</p>
-              <button class="btn button" onclick="newFunction()" type="submit">Ứng tuyển ngay</button>
-            </div>
+        </div>
+        <div class="col-md-2 sell">
+          <div class="button-Recruitment"><img src="../image/Path 456@2x.png" alt="responsive">
+            <p>Thương Mại</p>
+            <button class="btn button" onclick="newFunction()" type="submit">Ứng tuyển ngay</button>
           </div>
-          <div class="col-md-2"> 
-            <div class="button-Recruitment"><img src="../element Microsite/chuoi cung ung.png" alt="responsive">
-              <p>Chuỗi Cung Ứng</p>
-              <button class="btn button" onclick="newFunction()" type="submit">Ứng tuyển ngay</button>
-            </div>
+        </div>
+        <div class="col-md-2 sell">
+          <div class="button-Recruitment"><img src="../image/chuoi cung ung.png" alt="responsive">
+            <p>Chuỗi Cung Ứng</p>
+            <button class="btn button" onclick="newFunction()" type="submit">Ứng tuyển ngay</button>
           </div>
-          <div class="col-md-2"> 
-            <div class="button-Recruitment"><img src="../element Microsite/tai chinh.png" alt="responsive">
-              <p>Tài Chính</p>
-              <button class="btn button" onclick="newFunction()" type="submit">Ứng tuyển ngay</button>
-            </div>
+        </div>
+        <div class="col-md-2 sell">
+          <div class="button-Recruitment"><img src="../image/tai chinh.png" alt="responsive">
+            <p>Tài Chính</p>
+            <button class="btn button" onclick="newFunction()" type="submit">Ứng tuyển ngay</button>
           </div>
-          <div class="col-md-2">
-            <div class="button-Recruitment"><img src="../element Microsite/nhan su.png" alt="responsive">
-              <p>Nhân Sự</p>
-              <button class="btn button" onclick="newFunction()" type="submit">Ứng tuyển ngay</button>
-            </div>
+        </div>
+        <div class="col-md-2 sell">
+          <div class="button-Recruitment"><img src="../image/nhan su.png" alt="responsive">
+            <p>Nhân Sự</p>
+            <button class="btn button" onclick="newFunction()" type="submit">Ứng tuyển ngay</button>
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col md-12">
-            <div class="why-img"><img src="../element Microsite/icon vi sao.png" alt="responsive"></div>
+      <div class="row" data-aos="zoom-in">
+        <div class="col md-12">
+          <div class="why-img"><img src="../image/icon vi sao.png" alt="responsive"></div>
+          <div class="text-choose">
+            <h1>BẠN CHỌN </h1><span style="color: red">ASPIRE</span>
           </div>
         </div>
-        <div class="text-choose">
-          <h1>BẠN CHỌN <span style="color: red">ASPIRE</span></h1>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-4">
-            <div class="text-learn">
-              <h1>01</h1>
-            </div>
-            <div class="box">
-              <p>Bạn sẽ <span style="color: red">HỌC TẬP LINH HOẠT </span>với lộ trình 24 tháng đào tạo và phát triển chuyên sâu thông qua 4 cột mốc luân chuyển, từ đó khám phá bản thân và trải nghiệm văn hóa LifeAtCoke độc đáo, khác biệt.		</p>
-            </div>
-            <div class="text-learn">
-              <h1>03		</h1>
-            </div>
-            <div class="box-deve">
-              <p>Bạn sẽ <span style="color: red">ĐẠT THÀNH TỰU VƯỢT TRỘI </span>khi tạo ra ảnh hưởng và gặt hái thành công từ những ngày đầu tiên với mục tiêu đầy thách thức.</p>
-            </div>
+      </div>
+      <div class="row" data-aos="zoom-in">
+        <div class="col-sm-6 col-md-4">
+          <div class="text-learn">
+            <h1>01</h1>
           </div>
-          <div class="col-sm-6 col-md-4 box-align">
-            <div class="text-learn">
-              <h1>02</h1>
-            </div>
-            <div class="box">
-              <p>Bạn sẽ <span style="color: red">PHÁT TRIỂN TOÀN DIỆN </span>Bạn sẽ PHÁT TRIỂN TOÀN DIỆN với sự cố vấn và huấn luyện từ Lãnh đạo cấp cao và thể nghiệm những giá trị cốt lõi của Coca-Cola.</p>
-            </div>
-            <div class="text-learn">
-              <h1>04		</h1>
-            </div>
-            <div class="box-deve">
-              <p>Bạn sẽ có <span style="color: red">TRÃI NGHIỆM QUỐC TẾ  </span>Bạn sẽ có TRẢI NGHIỆM QUỐC TẾ qua việc khám phá nhiều nền văn hóa khác nhau, đồng thời trải nghiệm môi trường làm việc đa dạng và tôn trọng sự khác biệt.</p>
-            </div>
+          <div class="box">
+            <p>Bạn sẽ <span style="color: red">HỌC TẬP LINH HOẠT </span>với lộ trình 24 tháng đào tạo và phát triển chuyên sâu thông qua 4 cột mốc luân chuyển, từ đó khám phá bản thân và trải nghiệm văn hóa LifeAtCoke độc đáo, khác biệt.		</p>
           </div>
-          <div class="col-sm-6 col-md-4 box-img"><img src="../element Microsite/Rectangle 49.png" alt="responsive"></div>
+          <div class="text-learn">
+            <h1>03		</h1>
+          </div>
+          <div class="box-deve">
+            <p>Bạn sẽ <span style="color: red">ĐẠT THÀNH TỰU VƯỢT TRỘI </span>khi tạo ra ảnh hưởng và gặt hái thành công từ những ngày đầu tiên với mục tiêu đầy thách thức.</p>
+          </div>
         </div>
+        <div class="col-sm-6 col-md-4 box-align">
+          <div class="text-learn">
+            <h1>02</h1>
+          </div>
+          <div class="box">
+            <p>Bạn sẽ <span style="color: red">PHÁT TRIỂN TOÀN DIỆN </span>Bạn sẽ PHÁT TRIỂN TOÀN DIỆN với sự cố vấn và huấn luyện từ Lãnh đạo cấp cao và thể nghiệm những giá trị cốt lõi của Coca-Cola.</p>
+          </div>
+          <div class="text-learn">
+            <h1>04		</h1>
+          </div>
+          <div class="box-deve">
+            <p>Bạn sẽ có <span style="color: red">TRÃI NGHIỆM QUỐC TẾ  </span>Bạn sẽ có TRẢI NGHIỆM QUỐC TẾ qua việc khám phá nhiều nền văn hóa khác nhau, đồng thời trải nghiệm môi trường làm việc đa dạng và tôn trọng sự khác biệt.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 box-img"><img src="../image/Rectangle 49.png" alt="responsive"></div>
       </div>
     </section>
     <main class="container-fluid how">
-      <div class="row">
+      <div class="row" data-aos="zoom-in">
         <div class="col-md-12">
-          <div class="how-img"><img src="../element Microsite/icon cach thuc.png" alt="responsive"></div>
+          <div class="how-img"><img src="../image/icon cach thuc.png" alt="responsive"></div>
         </div>
       </div>
-      <div class="text-choose">
+      <div class="text-choose" data-aos="zoom-in">
         <h1>THAM GIA </h1>
       </div>
-      <div class="row">
+      <div class="row" data-aos="zoom-in">
         <div class="col-md-3 col-sm-6 file">
-          <div class="file-icon"><img src="../element Microsite/3 month.png" alt="responsive"></div>
+          <div class="file-icon"><img src="../image/3 month.png" alt="responsive"></div>
           <div class="file-month">
             <P>THÁNG 01 - 02</P>
           </div>
@@ -214,7 +210,7 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-6 file">
-          <div class="file-icon"><img src="../element Microsite/3-5.png" alt="responsive"></div>
+          <div class="file-icon"><img src="../image/3-5.png" alt="responsive"></div>
           <div class="file-month">
             <P>THÁNG 03 - 04</P>
           </div>
@@ -223,7 +219,7 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-6 file">
-          <div class="file-icon"><img src="../element Microsite/4-5.png" alt="responsive"></div>
+          <div class="file-icon"><img src="../image/4-5.png" alt="responsive"></div>
           <div class="file-month">
             <P>THÁNG 04 - 05</P>
           </div>
@@ -232,7 +228,7 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-6 file">
-          <div class="file-icon"><img src="../element Microsite/6-7.png" alt="responsive"></div>
+          <div class="file-icon"><img src="../image/6-7.png" alt="responsive"></div>
           <div class="file-month">
             <P>THÁNG 06 - 07</P>
           </div>
@@ -241,36 +237,80 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row" data-aos="zoom-in">
         <div class="col-md-12">
-          <div class="how-img"><img src="../element Microsite/icon tieu chi.png" alt="responsive" style="margin-top: -150px"></div>
+          <div class="how-img"><img src="../image/icon tieu chi.png" alt="responsive" style="margin-top: -150px"></div>
         </div>
       </div>
-      <div class="text-choose">
+      <div class="text-choose" data-aos="zoom-in">
         <h1>TÌM KIẾM</h1>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-6">
-            <div class="row">
-              <div class="col-md-3">
-                <div class="find"><img src="../element Microsite/icon _1.png" alt="responsive"></div>
-              </div>
-              <div class="col-md-9">
-                <div class="text-leader">
-                  <p> <span style="text-align: left">Sinh viên năm cuối hoặc dưới 1 năm kinh nghiệm</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6"></div>
+      <div class="row" data-aos="zoom-in">
+        <div class="col-md-6 col-sm-6 left">
+          <div><img class="img-valign" src="../image/icon _1.png" alt="responsive"><span class="text1">Sinh viên năm cuối hoặc dưới 1 năm kinh nghiệm	</span></div>
+          <div><img class="img-valign" src="../image/Group 920@2x.png" alt="responsive"><span class="text1"> Đam mê phát triển sự nghiệp ngành FMCG</span></div>
+          <div><img class="img-valign" src="../image/Group 923@2x.png" alt="responsive"><span class="text1"> Kỹ năng phân tích, tư duy logic và phản biện tốt</span></div>
+          <div><img class="img-valign" src="../image/Group 918@2x.png" alt="responsive"><span class="text1"> Kỹ năng giao tiếp hiệu quả				</span></div>
+        </div>
+        <div class="col-md-6 col-sm-6 right">
+          <div><img class="img-valign" src="../image/icon3.png" alt="responsive"><span class="text1">Tinh thần cầu tiến và sáng tạo trong giải quyết vấn đề</span></div>
+          <div><img class="img-valign" src="../image/hand.png" alt="responsive"><span class="text1"> Tinh thần hợp tác và tiềm năng dẫn dắt người khác</span></div>
+          <div><img class="img-valign" src="../image/cm.png" alt="responsive"><span class="text1"> Giao tiếp tiếng Việt và tiếng Anh xuất sắc</span></div>
+          <div><img class="img-valign" src="../image/GPA.png" alt="responsive"><span class="text1">Điểm trung bình (GPA) Đại học đạt từ 7.0/10 hoặc thang tương đương	</span></div>
         </div>
       </div>
     </main>
+    <section class="container-fluid team">
+      <div class="row" data-aos="zoom-in">
+        <div class="col-md-12">
+          <div class="text-future-team">
+            <h1> <span style="color:red">RED </span>TEAM</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row" data-aos="zoom-in">
+        <div class="col-md-12">
+          <div class="team-img"><img src="../image/Bang.png" alt="responsive"></div>
+          <div class="team-le">
+            <p>LÊ HỮU BẰNG</p>
+          </div>
+        </div>
+      </div>
+      <div class="row" data-aos="zoom-in">
+        <div class="col-md-12">
+          <div class="text-leader">
+            <P><span style="font-weight: bold">(NGL 2019 – Phòng Chuỗi Cung Ứng)</span><br>“Khi tham gia NGL của Coca-Cola, mình có cơ hội được trải nghiệm nhiều vị trí và công việc khác nhau <br>trong Phòng Chuỗi Cung Ứng. Đặc biệt, mình rất may mắn khi được tham gia vào nhiều dự án lớn của <br>công ty, làm việc trong một môi trường quốc tế và chuyên nghiệp …</P>
+          </div>
+        </div>
+      </div>
+      <div class="row team-story">
+        <div class="col-md-12">
+          <div class="text-leader">
+            <P>Ai cũng có những câu chuyện của riêng mình. Hãy để Coca-Cola Việt Nam cùng bạn viết nên câu chuyện đáng tự hào ấy.<br>Bắt đầu sự nghiệp của bạn như những Coca-Cola Aspirers ngay hôm nay	</P>
+          </div>
+        </div>
+        <div class="button-join fixed-bottom">
+          <button class="btn button" onclick="newFunction()" type="submit">ỨNG TUYỂN NGAY							</button>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid footer">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="logojobtest"><img src="../image/logojobtest.png" alt="responsive"></div>
+        </div>
+        <div class="col-md-3 facebook">
+          <div><span class="footer-text">Follow us on:</span><img class="footer-img" src="../image/facebook.png" alt=""><img class="footer-img" src="../image/in.png" alt=""></div>
+        </div>
+        <div class="col-md-6 copy">
+          <div><span class="footer-text">Copyright JobTest © 2021.  All Rights Reserved</span></div>
+        </div>
+      </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="../../js/index.js"></script>
+    <script src="../../resources/js/index.js"></script>
   </body>
 </html>

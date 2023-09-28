@@ -13,18 +13,18 @@
         "axios": "^0.21.1",
         "cross-env": "^7.0.3",
         "laravel-mix": "^5.0.1",
+        "laravel-mix-pug": "^0.3.0",
         "lodash": "^4.17.19",
         "pug": "^3.0.0",
         "resolve-url-loader": "^3.1.0",
         "sass": "^1.15.2",
         "sass-loader": "^8.0.0",
+        "webpack": "^4.40.3",
         "webpack-cli": "^4.3.1"
     },
     "dependencies": {
         "bootstrap": "^5.0.0-beta1",
         "browser-sync": "^2.26.13",
-        "jquery.countdown": "^1.2.8",
-        "laravel-mix-pug": "^0.3.0",
-        "webpack": "^4.40.3"
+        "jquery.countdown": "^1.2.8"
     }
 }
